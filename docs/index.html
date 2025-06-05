@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nintendo Switch 2 抽選販売シミュレーター</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Nintendo Switch 2 抽選販売シミュレーター</h1>
+        </header>
+        
+        <main>
+            <div class="buttons-container">
+                <button id="applyButton" class="primary-button">応募</button>
+                <button id="checkButton" class="secondary-button" disabled>確認</button>
+            </div>
+            
+            <div id="resultArea" class="result-area">
+                <!-- 抽選結果がここに表示されます -->
+            </div>
+        </main>
+    </div>
+    
+    <div id="notification" class="toast-notification"></div>
+    
+    <audio id="drumrollAudio" src="drumroll.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
